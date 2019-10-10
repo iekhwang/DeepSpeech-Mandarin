@@ -3,7 +3,7 @@ DeepSpeech for Mandarin
 A reproducable ASR system for Mandarin
 
 
-Open Source Mandarin Corpura:
+Open Source Mandarin Speech Dataset:
 --------
 
 
