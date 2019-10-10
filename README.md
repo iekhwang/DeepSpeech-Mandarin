@@ -4,6 +4,7 @@ A reproducable ASR system for Mandarin
 
 
 Open Source Mandarin Corpura:
+--------
 
 
 1.THCHS-30 https://www.openslr.org/18/
