@@ -40,7 +40,13 @@ Please check the offical steps -> https://github.com/mozilla/DeepSpeech/tree/mas
 Train your model
 -----
 
-Please check a tiny model for training -> https://github.com/mozilla/DeepSpeech/blob/master/bin/run-ldc93s1.sh
+Please check a tiny model for training -> https://github.com/mozilla/DeepSpeech/blob/master/bin/run-ldc93s1.sh , you can also change the hyperparameters to your own.
+
+The format of the input csv file is like:
+```
+wav_filename,wav_filesize,transcript
+/DeepSpeech/data/ldc93s1/LDC93S1.wav,93638,she had your dark suit in greasy wash water all year
+```
 
 If you have problem with hyperparameters, you can check with ```python DeepSpeech.py --helpfull```
 
