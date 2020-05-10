@@ -11,7 +11,7 @@ Git the v0.7.0 version from DeepSpeech
 git clone https://github.com/mozilla/DeepSpeech.git
 ```
 ```
-cd DeepSpeech
+cd DeepSpeech/
 less VERSION
 ```
 
@@ -28,7 +28,7 @@ Create docker image
 ```
 docker build -t mozilla_deepspeech:v0.7.0 .
 ```
-Create docker container
+Create and run docker container
 ```
 nvidia-docker run -it -v $path/DeepSpeech:/DeepSpeech mozilla_deepspeech:v0.7.0 /bin/bash
 ```
