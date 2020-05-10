@@ -15,7 +15,7 @@ cd DeepSpeech
 less VERSION
 ```
 
-if the version is not v0.7.0, hard reset the version to v0.7.0
+If the version is not v0.7.0, hard reset the version to v0.7.0
 
 ```
 git reset --hard v0.7.0
@@ -52,4 +52,4 @@ If you have problem with hyperparameters, you can check with ```python DeepSpeec
 
 ---------
 
-If you have any problems with DeepSpeech v0.7.0, please do not hesitate to contact me with iekhwang@outlook.com
+If you have any problems with DeepSpeech v0.7.0, please do not hesitate to contact me iekhwang@outlook.com .
